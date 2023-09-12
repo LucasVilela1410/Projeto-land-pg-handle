@@ -50,14 +50,35 @@
 }
 
 @media (max-width: 425px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .header img{
+        width: 130px;  
+        margin: 20px;     
+    }
+
     .imagem img{
         margin: 0;
-        width: 300px;
-        height: 200px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .registro div .titulo{
+        font-size: 25px;
+        max-width: 300px;
     }
 
     .registro div .descricao{
         text-align: center;
         max-width: 325px;
+    }
+
+    .contact{
+        margin-top: 0;
     }
 }

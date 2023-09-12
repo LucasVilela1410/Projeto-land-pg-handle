@@ -7,7 +7,10 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #fff;
 
-    max-width: 1366px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -19,6 +22,7 @@ body{
           "imagem-lateral contatos"; 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr) 95px;
+
 }
 
 /* Header */
@@ -86,7 +90,6 @@ body{
 .registro div .btn-registro:hover{
     color: #fff;
     background-color: hsl(300, 69%, 71%);
-    opacity: 0.7;
 }
 
 /* Footer */
@@ -99,14 +102,14 @@ body{
     margin: 40px 100px 0;
 }
 
-.contact div .icones{
+.contact nav .icones{
     display: flex;
     width: 200px;
     justify-content: space-evenly;
 }
 
 
-.contact div .icones a .icone{
+.contact nav .icones a .icone{
     font-size: 15px;
     color: #fff;
     border: 1px solid #fff;
@@ -118,7 +121,7 @@ body{
     transition: 0.3s ease-in-out;
 }
 
-.contact div .icones a .icone:hover {
+.contact nav .icones a .icone:hover {
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
 }
